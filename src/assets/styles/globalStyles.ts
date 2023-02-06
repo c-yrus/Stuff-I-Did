@@ -6,7 +6,7 @@ type Props = {
 
 export const GlobalStyles = createGlobalStyle<Props>`
   body {
-    background-color: ${({ theme }) => theme.colors.qrCode.lightGray};
+    background-color: ${({ theme }) => theme.colors.primary.background};
     color: ${({ theme }) => theme.colors.primary.primaryText};
   }
 `;
