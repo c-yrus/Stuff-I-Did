@@ -6,7 +6,7 @@ type Props = {
 
 export const GlobalStyles = createGlobalStyle<Props>`
   body {
-    background-color: ${({ theme }) => theme.colors.primary.background};
+    background-color: ${({ theme }) => theme.colors.productPreview.background};
     color: ${({ theme }) => theme.colors.primary.primaryText};
   }
 `;
